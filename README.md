@@ -1,5 +1,5 @@
 # Python_hw1
-##part.1, 
+## part.1 & 2
 no significant change as the origial code imports the csv file into the list by labeling each data by it's 
 weather type. 
 
@@ -11,3 +11,7 @@ if row['TEMP'] == '-99.000' or row['TEMP'] == '-999.000':
 ```
 
 this allows data with false content getting removed from the list.
+
+## part.3
+
+## part.4
