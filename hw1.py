@@ -17,7 +17,7 @@ import csv
 
 # Read cwb weather data
 
-cwb_filename = '/home/ee2405/Downloads/108011235.csv'
+cwb_filename = '/home/ee2405/ee2405/Python_hw1/108011235.csv'
 
 data = []
 
