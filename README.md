@@ -1,5 +1,3 @@
-
-![Screenshot 2021-03-08 201846 jpeg](https://user-images.githubusercontent.com/67352558/110320621-8fe53d80-804b-11eb-8310-f4328d23daa6.jpg)
 # Python_hw1
 ## part.1 & 2
 no significant change as the origial code imports the csv file into the list by labeling each data by
@@ -68,3 +66,4 @@ print out the result.
 ```bash
 print(data_request)
 ```
+![Screenshot 2021-03-08 201846 jpeg](https://user-images.githubusercontent.com/67352558/110320621-8fe53d80-804b-11eb-8310-f4328d23daa6.jpg)
