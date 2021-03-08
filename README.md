@@ -14,4 +14,38 @@ this allows data with false content getting removed from the list.
 
 ## part.3
 
+first create a list to carry the data required
+naming it data_request
+```bash
+data_request = []
+```
+using filter function to choose the data that meet the criteria which the lamda function required. 
+```bash
+target_data = list(filter(lambda item: item['station_id'] == 'C0A880', data))
+```
+
+then set a dummy parameter that is small enough, and using for loop to compare with the required data
+if the number is larger than the parameter, then the number will be assign to the parameter.
+naming the parameter largest to indicate that is stores the largest data required of the station.
+```bash
+largest = -99;
+for i in range(len(target_data)):
+      if float(target_data[i]['TEMP']) > largest:
+            largest = float(target_data[i]['TEMP'])
+```
+
+after the for loop if the largest still remains -99, then append the sequence[(station_id, "none")] to the list, otherwise, append the sequence [(station_id, largest)] into the list.
+```bash
+if largest == -99:
+      data_request.append([target_data[0]['station_id'],"None"])  
+else:    
+      data_request.append([target_data[0]['station_id'],largest])
+
+```
+repeat it for other 4 stations.
+
 ## part.4
+print out the result.
+```bash
+print(data_request)
+```
