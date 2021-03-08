@@ -1,7 +1,24 @@
 # Python_hw1
 ## part.1 & 2
-no significant change as the origial code imports the csv file into the list by labeling each data by it's 
-weather type. 
+no significant change as the origial code imports the csv file into the list by labeling each data by
+it's weather type.
+```bash
+cwb_filename = '/home/ee2405/ee2405/Python_hw1/108011235.csv'
+
+data = []
+
+header = []
+
+with open(cwb_filename) as csvfile:
+
+   mycsv = csv.DictReader(csvfile)
+
+   header = mycsv.fieldnames
+
+   for row in mycsv:
+
+      data.append(row)
+```
 
 Only 2 new lines are added at the end. which is 
 
