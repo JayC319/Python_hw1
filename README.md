@@ -67,3 +67,7 @@ print out the result.
 print(data_request)
 ```
 ![Screenshot 2021-03-08 201846 jpeg](https://user-images.githubusercontent.com/67352558/110320621-8fe53d80-804b-11eb-8310-f4328d23daa6.jpg)
+
+##Run the code
+
+you can run the code through code editor in the terminal to get the result above.
